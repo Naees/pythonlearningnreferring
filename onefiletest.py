@@ -1,1 +1,1 @@
-print('saf apple eater')
+print('Waves Wondering \n By EggPlantEgg')
