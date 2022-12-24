@@ -20,6 +20,13 @@ git branch -M main
 git remote add origin <random git url>
 git push -u origin main
 
+  Add changes from a single/all files
+git add .
+git add <filename>
+  
+  savechanges with message (aka commiting)
+git commit -m  "add message here"
+  
   Push an existing repo:
 git remote add origin <random git url>
 git branch - M main
@@ -36,6 +43,9 @@ git branch
   Merging branches by pushing new branch:
 git branch
 git push origin <name of branch that you want to push>
+  
+  Traveling to an old commit:
+git checkout <hash of an older commit which can be found in the logs>
   
   Git log:
 git log
