@@ -10,6 +10,9 @@ All of the code listed are from public sources and I hope that we can all have a
 
   Some help for Git/Github if you are having problems with Git/Github
   
+  Pull from Github:
+git pull origin <name>
+  
   Creating a new repository on the command line:
 git init
 git commit -m "random commit message"
