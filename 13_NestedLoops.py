@@ -6,5 +6,5 @@ symbol = input("Enter an icon to display: ")
 
 for i in range(rows):
     for j in range(columns):
-        print(symbol, end="") # use the line "print(symbol)" instead to understand how prints each row and columns
+        print(symbol, end="") # use the line "print(symbol)" instead to understand how prints each row and columns 
     print()
