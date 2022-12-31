@@ -1,3 +1,0 @@
-This file is for the implementation of 
- 33_WritingFiles.pyThis file is for the implementation of 
- 33_WritingFiles.py
