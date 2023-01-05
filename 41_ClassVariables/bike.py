@@ -1,10 +1,10 @@
 class Bike:
 
     def __init__(self,make, model, speed, price, rating):
-        self.make = make
-        self.model = model
-        self.speed = speed
-        self.price = price
-        self.rating = rating
+        self.make = make        # instance variable (affects that specific instance)
+        self.model = model      # instance variable
+        self.speed = speed      # instance variable
+        self.price = price      # instance variable
+        self.rating = rating    # instance variable
 
-    wheels = 2
+    wheels = 2                  # class variable (affects the whole class)
