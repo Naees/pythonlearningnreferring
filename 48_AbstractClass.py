@@ -6,8 +6,8 @@
 
 from abc import ABC, abstractmethod     #ABC stands for abstract base classes
 
-class Houses(ABC):
-    @abstractmethod
+class Houses(ABC):  # abstract class
+    @abstractmethod # abstract method
     def type(self):
         pass
 
@@ -19,6 +19,6 @@ class Shophouses(Houses):
     def type(self):
         print("These are shophouses")
 
-hse = Houses.type()
+# hse = Houses.type()   # error if ran due to the abstractmethod tag
 apt = Apartments.type()
 Shphses = Shophouses.type()
