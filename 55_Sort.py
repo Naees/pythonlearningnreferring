@@ -50,3 +50,20 @@ sortedby = lambda status: status[2]
 sortedhealthstatustuple = sorted(tuplehealthstatus, key=sortedby)
 for i in sortedhealthstatustuple:
     print(i)
+
+
+# Additional Learning:
+# sorted by name
+records = [(('Alice', 35), 9.5), (('Bob', 27), 8.0), (('Charlie', 45), 7.2), (('Dave', 22), 6.8)]
+sorted_records = sorted(records, key=lambda x: x[0][0])
+print(sorted_records)
+
+# sorted by age
+records = [(('Alice', 35), 9.5), (('Bob', 27), 8.0), (('Charlie', 45), 7.2), (('Dave', 22), 6.8)]
+sorted_records = sorted(records, key=lambda x: x[0][1])
+print(sorted_records)
+
+# sorted by rating of the person
+records = [(('Alice', 35), 9.5), (('Bob', 27), 8.0), (('Charlie', 45), 7.2), (('Dave', 22), 6.8)]
+sorted_records = sorted(records, key=lambda x: x[1])
+print(sorted_records)
