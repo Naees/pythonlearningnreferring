@@ -31,8 +31,11 @@ print(time_object)
 
 # (year, month, day, hours, minutes, secs, #day of the week, #day of the year, dst)
 time_tuple = (2022, 2, 17, 12, 31, 32, 0, 0, 0)
+
 # Convert a time tuple to a string
 time_string = time.asctime(time_tuple)
 print(time_string)
+
+# Convert a time tuple in local time to seconds since the Epoch.
 time_string = time.mktime(time_tuple)
 print(time_string)
