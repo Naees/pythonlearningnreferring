@@ -2,7 +2,7 @@
 #                   your program will not wait for daemon threads to complete before exiting
 #                   non-daemon threads cannot normally be killed, stay alive until task is complete
 
-#                   ex. background task, garvage collection, waiting for input, long running processes
+#                   ex. background task, garbage collection, waiting for input, long running processes
 
 import threading
 import time
@@ -24,4 +24,4 @@ x.start()
 # x.setDaemon(True) # change daemon state BUT HAS TO BE USED BEFORE THE .Start() function, as daemons states can't be changed while actively in use
 print(x.isDaemon()) # allows us to see if daemon state has been set to TRUE or FALSE
 
-answer = input("Do you wish to exit?") # The main thread is in charged of this input
+answer = input("Do you wish to exit?") # The main thread is in charged of this inputyes
