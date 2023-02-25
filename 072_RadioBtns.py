@@ -3,10 +3,6 @@ from tkinter import *
 
 transportation = ['Car', 'Bus', 'Train', 'Bicycle']
 
-# def order():
-#     if (X.get()):
-#         print(f"You have ordered {X.get(transportation[index])}")
-
 def order():
     if X.get() != -1: # check if a radio button has been selected
         print(f"You have ordered {transportation[X.get()]}")
